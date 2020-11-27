@@ -1,0 +1,14 @@
+cls
+
+print "Mulai !"
+
+num = 0
+percobaan = 0
+while num <> 777
+	random = int(rand * 1000)
+	print random
+	num = random
+	percobaan += 1
+end while
+
+print "Angka 777 ditemukan pada percobaan ke : " + percobaan

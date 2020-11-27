@@ -1,0 +1,5 @@
+Cls
+Print "Siapa namamu?"
+Input "Namaku : " , Nama$
+Print "Halo,"+Nama$+ "!"
+End

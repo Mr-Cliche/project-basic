@@ -1,0 +1,9 @@
+Cls
+Print "Verifikasi Usia"
+Print "Berapakah Usia Anda?"
+Input "Usia Saya : " , usia$
+If usia$ >= 13 then
+           Print "Anda adalah remaja/dewasa."
+Else
+           Print "Anda adalah anak-anak"           
+Endif           

@@ -1,0 +1,15 @@
+Cls
+Print "Pendataan Diri"
+Print ""
+Input "Nama Anda : " , nama$
+Input "Alamat Anda : " , alamat$
+Input "No. Telepon : " , tlp$
+Print ""
+Print "-----------------------------------"
+Print "Kartu Identitas Sederhana"
+Print "Nama : "+ nama$
+Print "Alamat : "+ alamat$
+Print "No. Telpon : "+ tlp$
+Print "-----------------------------------"
+Print "Terimakasih Sudah Mendaftar!"
+End

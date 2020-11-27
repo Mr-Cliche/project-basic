@@ -1,0 +1,10 @@
+Cls
+Print "Program luas Persegi Panjang"
+Print "---------------------------------------"
+Print ""
+Input "Masukan Panjang : ",Panjang
+Input "Masukan Lebar : ",Lebar
+Luas=Panjang*Lebar
+Print ""
+Print "Hasil Luas",Luas
+End

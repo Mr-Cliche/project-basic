@@ -1,0 +1,8 @@
+Cls
+Print "Siapa namamu?"
+Input "Namaku : " , Nama$
+Print "Halo, "+ Nama$ +"!"
+Print "Kalau usiamu boleh tahu?"
+Input "Usiaku : " , Usia
+Print "Baiklah biar kuingat.. jadi, namamu adalah "+ Nama$ + " dan usiamu adalah " + Usia +"."
+End

@@ -1,0 +1,11 @@
+Cls
+Print "Pomodoro Timer"
+Print ""
+Print "-------------------------------"
+Input "Masukkan waktu (dalam detik) : " , x
+While x > 0
+         Print x
+         x = x - 1
+         Pause 1
+ Endwhile
+Print "Perhitungan waktu selesai."

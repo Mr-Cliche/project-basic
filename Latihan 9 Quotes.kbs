@@ -1,0 +1,11 @@
+Cls
+Print "Quote untukmu kali ini adalah.";
+For x = 0 to 3
+Pause 1
+Print ".";
+Next x
+Print ""
+
+      Quote$ = {"Saya belum gagal. Saya baru saja menemukan 10.000 cara yang tidak akan berhasil","Kita adalah apa yang kita percayai", "Pendidikan adalah senjata paling mematikan di dunia, karena dengan pendidikan, Anda dapat mengubah dunia","Hiduplah seolah engkau mati besok. Belajarlah seolah engkau hidup selamanya","Jika seseorang bepergian dengan tujuan mencari ilmu, maka Allah akan menjadikan perjalanannya seperti perjalanan menuju surga","Jika anda mendidik seorang pria, maka seorang pria akan terdidik. Tapi jika anda mendidik seorang wanita, sebuah generasi akan terdidik","Pendidikan adalah tiket ke masa depan. Hari esok dimiliki oleh orang-orang yang mempersiapkan dirinya sejak hari ini","Gantungkan cita-cita mu setinggi langit! Bermimpilah setinggi langit. Jika engkau jatuh, engkau akan jatuh di antara bintang-bintang","Pendidikan bukan persiapan untuk hidup. Pendidikan adalah hidup itu sendiri","Murid yang dipersenjatai dengan informasi akan senantiasa memenangkan pertempuran"}
+      Print ""
+      Print Quote$[Int(rand * 10)] 

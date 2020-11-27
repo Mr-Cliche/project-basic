@@ -1,0 +1,42 @@
+cls
+print "Gacha !"
+
+print "Mengocok .";
+for i = 0 to 3
+	pause 1
+	print ".";
+	next i
+print
+
+print "Selesai !"
+print "Hasilmu : "
+
+pause 1
+
+umum$ = {"Roti", "Botol XP ukuran kecil", "Susu", "Buku level 1", "Pedang pendek", "Anak panah"}
+langka$ = {"Pedang", "Perisai", "Kalkun bakar", "Baju zirah perunggu", "Botol XP Ukuran sedang", "Buku level 2", "Buku level 3", "Busur"}
+epik$ = {"Busur silang", "Baju zirah besi", "Baju zirah perak", "Gada perang", "Perisai besar", "Jamuan", "Botol XP ukuran besar"}
+legend$ = {"Baju zirah suci", "Kitab mantra kuno", "Busur malaikat", "Pedang super"}
+
+print "Kategori : ";
+
+hasil = int(rand * 99) + 1
+if hasil < 50 then
+	print "Umum"
+	print umum$[int(rand * 5)+1]
+else
+	if hasil > 50 and hasil < 80 then
+		print "Langka"
+		print langka$[int(rand * 7)+1]
+	else
+		if hasil > 80 and hasil < 95 then
+			print "Epik"
+			print epik$[int(rand * 6)+1]
+		else
+			print "Legendaris !"
+			print legend$[int(rand * 3)+1]
+		endif
+	endif
+endif 
+
+end

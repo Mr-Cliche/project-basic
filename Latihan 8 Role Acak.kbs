@@ -1,0 +1,13 @@
+Cls
+Print "Mulai."
+Print "Memilih";
+for x = 0 to 3
+       Pause 1
+       Print ".";
+       Next x
+  Print ""
+ Print "Role Anda : ";
+ Pause 1
+                          Role$ = {"Knight","Mage","Archer"}
+                          Print Role$[int(rand * 3)]
+                 End         

@@ -1,0 +1,47 @@
+Cls
+nama$ = {"Killua", "Luffy", "Jibril", "Naruto", "Jotaro", "Megumin"," Asta","Jin-Woo","Boruto","Eugeo"}
+anime$ = {"One Piece","Naruto:Shippuden","Konosuba","Solo Leveling","Sword Art Online","HunterXHunter","No Game No Life","JoJo's Bizzare Adventure : Stardust Crusaders","Black Clover","Boruto : Naruto's Next Generartion"}
+Print "Karakter Dan Animenya"
+                                     Pause 1
+Print ""
+x = int(rand * 10)
+If nama$[x] = "Killua" then
+     anime$ = "HunterXHunter"
+     else
+If nama$[x] = "Luffy" then
+     anime$ = "One Piece"
+     else
+If nama$[x] = "Jibril" then
+     anime$ = "No Game No Life"
+     else
+If nama$[x] = "Naruto" then
+     anime$ = "Naruto:Shippuden"
+     else
+ If nama$[x] = "Jotaro" then
+     anime$ = "JoJo's Bizzare Adventure : Stardust Crusaders"
+     else
+If nama$[x] = "Megumin" then
+     anime$ = "Konosuba"
+     else
+ If nama$[x] = "Asta" then
+     anime$ = "Black Clover"
+     else
+ If nama$[x] = "Jin-Woo" then
+     anime$ = "Solo Leveling"
+     else
+If nama$[x] = "Boruto" then
+     anime$ = "Borut : Naruto's Next Generation"
+     else
+ If nama$[x] = "Eugeo" then
+     anime$ = "Sword Art Online"
+ Endif
+ Endif
+ Endif
+ Endif
+  Endif
+ Endif
+ Endif
+ Endif
+ Endif
+ Endif
+Print nama$[x] + " berasal dari anime " + anime$ + "."
