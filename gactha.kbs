@@ -1,5 +1,5 @@
 cls
-print "Gacha !"
+print "Gactha !"
 
 print "Mengocok .";
 for i = 0 to 3
