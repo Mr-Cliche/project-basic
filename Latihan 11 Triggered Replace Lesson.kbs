@@ -1,0 +1,106 @@
+Cls
+Input "Huruf : " , huruf$
+If huruf$ = "a" then
+Print Replace(huruf$, "a", "001")
+Else
+If huruf$ = "b" then
+Print Replace(huruf$, "b", "002")
+Else
+If huruf$ = "c" then
+Print Replace(huruf$, "c", "003")
+Else
+If huruf$ = "d" then
+Print Replace(huruf$, "d", "004")
+Else
+If huruf$ = "e" then
+Print Replace(huruf$, "e", "005")
+Else
+If huruf$ = "f" then
+Print Replace(huruf$, "f", "006")
+Else
+If huruf$ = "g" then
+Print Replace(huruf$, "g", "007")
+Else
+If huruf$ = "h" then
+Print Replace(huruf$, "h", "008")
+Else
+If huruf$ = "i" then
+Print Replace(huruf$, "i", "009")
+Else
+If huruf$ = "j" then
+Print Replace(huruf$, "j", "010")
+Else
+If huruf$ = "k" then
+Print Replace(huruf$, "k", "011")
+Else
+If huruf$ = "l" then
+Print Replace(huruf$, "l", "012")
+Else
+If huruf$ = "m" then
+Print Replace(huruf$, "m", "013")
+Else
+If huruf$ = "n" then
+Print Replace(huruf$, "n", "014")
+Else
+If huruf$ = "o" then
+Print Replace(huruf$, "o", "015")
+Else
+If huruf$ = "p" then
+Print Replace(huruf$, "p", "016")
+Else
+If huruf$ = "q" then
+Print Replace(huruf$, "q", "017")
+Else
+If huruf$ = "r" then
+Print Replace(huruf$, "r", "018")
+Else
+If huruf$ = "s" then
+Print Replace(huruf$, "s", "019")
+Else
+If huruf$ = "t" then
+Print Replace(huruf$, "t", "020")
+Else
+If huruf$ = "u" then
+Print Replace(huruf$, "u", "0021")
+Else
+If huruf$ = "v" then
+Print Replace(huruf$, "v", "022")
+Else
+If huruf$ = "w" then
+Print Replace(huruf$, "w", "023")
+Else
+If huruf$ = "x" then
+Print Replace(huruf$, "x", "024")
+Else
+If huruf$ = "y" then
+Print Replace(huruf$, "y", "025")
+Else
+If huruf$ = "z" then
+Print Replace(huruf$, "z", "026")
+Endif
+Endif
+Endif
+Endif
+Endif
+Endif
+Endif
+Endif
+Endif
+Endif
+Endif
+Endif
+Endif
+Endif
+Endif
+Endif
+Endif
+Endif
+Endif
+Endif
+Endif
+Endif
+Endif
+Endif
+Endif
+Endif
+End
