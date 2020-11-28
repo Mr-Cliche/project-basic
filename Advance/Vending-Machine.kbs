@@ -1,0 +1,55 @@
+print "================="
+print " Vending Machine "
+print "================="
+
+print ""
+
+menu$ = {"Air", "Soda", "Snack"}
+harga = {5000, 8000, 5000}
+
+print "Daftar barang yang dijual : "
+for x = 0 to menu$[?]-1
+	pause 0.5
+	print x + ". " + menu$[x] + "	: " + harga[x]
+	next x
+
+pause 1
+
+input "Silakan masukkan jumlah uang yang ingin dibelanjakan : ", money
+
+print ""
+
+if money >= 5000 then
+	while money >= 5000
+		input "Silakan masukkan nomer barang yang ingin dibeli : " , number
+		if number < harga[?] then
+			if money >= harga[number] then
+				print ""
+				print "Membeli : " + menu$[number]
+				money = money - harga[number]
+				print "Sisa uang : " + money
+
+				if money >= harga[number] then
+					input "Lanjut ? [y/t] ", y$
+					if y$ = "y" then
+						print ""
+					else
+						print "Kembalian : " + money
+						money = 0
+					endif					
+				else
+					print "";
+				endif
+			else
+				print "Uangmu tidak cukup untuk membeli barang itu"
+				print ""
+			endif 
+		else
+			print "Tidak valid"
+			print "" 
+		endif
+	endwhile
+	print "Terimakasih sudah menggunakan mesin kami !"
+else 
+	print "Yah, uangmu kurang :("
+endif
